@@ -50,3 +50,8 @@ html_theme = 'alabaster'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+# Set the root rst to load. This is required to be named contents to allow
+# readthedocs to host the docs using its default configuration.
+master_doc = 'index'
